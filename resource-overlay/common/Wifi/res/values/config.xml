@@ -90,4 +90,8 @@
     <string-array translatable="false" name="config_wifiCharsetsForSsidTranslation">
         <item>zh,GBK</item>
     </string-array>
+
+    <!-- Wifi driver supports 6GHz band for softap when chip support 6GHz -->
+    <bool name="config_wifiSoftap6ghzSupported">false</bool>
+
 </resources>
